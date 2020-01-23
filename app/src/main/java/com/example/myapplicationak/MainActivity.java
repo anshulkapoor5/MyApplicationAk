@@ -22,8 +22,8 @@ Button btn_call;
            @Override
            public void onClick(View v) {
 
-              /* Snackbar snb = Snackbar.make(findViewById(R.id.myView),"Done...!",LENGTH_LONG);
-                snb.show();*/
+             /*  Snackbar snb = Snackbar.make(findViewById(R.id.myView),"Done...!",LENGTH_LONG);
+                snb.show(); */
               Snackbar snb =  Snackbar.make(findViewById(R.id.myView),"Action Snackbar!",Snackbar.LENGTH_INDEFINITE).setAction("Retry!", new View.OnClickListener() {
                   @Override
                   public void onClick(View v) {
